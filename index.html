@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.ComVagas</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="inicio">
+        <h1>.ComVagas</h1>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li> <a href="">Inicio</a></li>
+            <li> <a href="">Eventos</a></li>
+            <li> <a href="">Vagas</a></li>
+        </ul>
+    </div>
+
+    <div class="conteudo">
+        <h1>Vaga para Jovem Aprendiz em São Paulo</h1>
+        <h3>Para participar do programa de Jovem Aprendiz são necessários os seguintes requisitos:</h3>
+        <p>– Idade entre 14 e 22 anos;
+        <p> - Estar estudando ou ter concluído o ensino fundamental e ensino médio;</p>
+        <p> - Possuir Carteira de Trabalho (CTPS) e CPF;</p>
+        <p> - Nunca ter trabalho como Jovem Aprendiz.</p>
+
+        <p>Funcionamento do Contrato e Curso de Capacitação</p>
+        <p> - O jovem terá um contrato de no máximo 2 anos com carga horária diária de até 6 horas;</p>
+        <p> - A capacitação profissional será realizada na Sede do Nurap ou no Polo mais próximo da residência do jovem;
+        </p>
+        <p> - A capacitação abordará conteúdos pedagógicos práticos e teóricos ministrados pelos Monitores do Nurap;</p>
+        <p> - Mensalmente, de acordo com cada contrato, o jovem aprendiz Nurap participará de Atividades Externas e
+            Oficinas Culturais;</p>
+        <p> - Os conteúdos são direcionados de acordo com a área de atuação do jovem nas empresas parceiras;</p>
+        <p> - O curso de Capacitação Profissional (Simultaneidade) será realizado uma vez por semana e os outros dias da
+            semana o Jovem permanecerá na Empresa.</p>
+        <br />
+        <hr> <br />
+    </div>
+
+    <div id="form_box">
+        <h3>Cadastre seu curriculo no formulário abaixo!</h3>
+
+        <p id="f_alert">
+            Os campos não foram preenchidos corretamente!
+        </p>
+
+        <form action="">
+
+            <div class="f_line">
+                <span>
+                    <label>Nome:</label>
+                    <input type="text" id="i_nome" required>
+                </span>
+
+                <span>
+                    <label> Sobrenome:</label>
+                    <input type="text" id="i_sobrenome" required>
+                </span>
+            </div>
+
+            <div class="f_line">
+                <span>
+                    <label>Data de nascimento:</label>
+                    <input type="date" id="i_data" required>
+                </span>
+
+                <span>
+                    <label>Gênero</label>
+
+                    <input type="radio" name="i_genero" checked>
+                    Feminino
+                    <input type="radio" name="i_genero">
+                    Masculino
+                    <input type="radio" name="i_genero">
+                    Outros
+                </span>
+            </div>
+
+            <div class="f_line">
+                <span>
+                    <label>Celular:</label>
+                    <input type="text" id="i_celular" required>
+                </span>
+
+                <span>
+                    <label> Telefone:</label>
+                    <input type="text" id="i_telefone" required>
+                </span>
+            </div>
+
+            <div class="f_line">
+                <span>
+                    <label> Email: </label>
+                    <input type="email" id="i_email" required>
+                </span>
+
+                <span>
+                    <label>Formação</label>
+                    <select>
+                        <option>Ensino Fundamental</option>
+                        <option>Ensino Médio</option>
+                        <option>Ensino Superior</option>
+                    </select>
+                </span>
+            </div>
+
+            <div class="f_line">
+
+                <span>
+                    <label>Endereço: </label>
+                    <input type="text" id="i_endereco" required>
+                </span>
+
+                <span>
+                    <label> Bairro: </label>
+                    <input type="text" id="i_bairro" required>
+                </span>
+            </div>
+
+
+            <div class="f_line">
+                <span>
+                    <label> RG:</label>
+                    <input type="text" id="i_rg" required>
+                </span>
+
+                <span>
+                    <label> CPF:</label>
+                    <input type="text" id="i_cpf" required>
+                </span>
+            </div>
+
+            <div class="f_line">
+                <span>
+                    <input type="submit" id="btt_form" value="Cadastrar" onclick="validacao()">
+                </span>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

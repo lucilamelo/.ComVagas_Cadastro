@@ -1,0 +1,114 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #5b79b1;
+    width: 100%;
+    display: grid;
+}
+
+.inicio{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.menu ul{
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+}
+
+.menu  li{  
+    margin: 5px;
+    padding: 10px;
+}
+
+.menu a{  
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu a:hover{  
+    background-color: #5b79b1;
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.conteudo{
+    padding-left: 20px;
+    
+}
+
+.conteudo h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.conteudo p{
+    margin: 15px;
+   
+}
+
+#form_box{
+    margin: auto;
+    width: max-content;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#form_box h3{
+    padding: 10px;
+    text-align: center;
+}
+
+.f_line{
+    display: flex;
+}
+
+.f_line span{
+    padding: 10px;
+}
+
+.f_line label{
+    display: block;
+    padding-bottom: 2px;
+    font-weight: bolder;
+    color: #233b85;
+}
+
+.f_line input[type=text], input[type=date], input[type=password], input[type=email], select{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+
+
+#btt_form{
+    cursor: pointer;
+    width: 520px;
+    height: 35px;
+    background-color: #4169e1;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+#btt_form:hover{
+    transition: 0.5s;
+    background-color: #6285ee;
+}
+
+#f_alert{
+    display: none;
+    background-color: #fc6767;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 5px;
+}
